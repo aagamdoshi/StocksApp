@@ -9,7 +9,7 @@
       <nb-card accent="info">
           <nb-card-header>Fetching live updates for Stock code (In progress):</nb-card-header>
           <nb-card-body>
-            {{ value || '-' }}
+            <h3>{{ value || '-' }}</h3>
           </nb-card-body>
         </nb-card>
     <div *ngFor="let stock of arrayData">
@@ -17,11 +17,11 @@
         <nb-card-header>Stock Code
           <button nbTooltip="Click to view more details" nbButton outline status={{stock.status}} size="small">
             {{stock.name}}
-          </button>
+          </button>  &nbsp;  &nbsp; &nbsp;
           Difference : {{stock.diff}}
         </nb-card-header>
         <nb-card-body>
-          Price : {{stock.price}} Last Updated Time : {{stock.time}}
+          <b>Price :</b> {{stock.price}} &nbsp;  &nbsp; &nbsp; <b>Last Updated Time :</b> {{stock.time}}
         </nb-card-body>
         <!-- <nb-card-footer>
             </nb-card-footer> -->
