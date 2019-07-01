@@ -6,7 +6,7 @@
     </h2>
   </nb-layout-header>
   <nb-layout-column>
-      <nb-card accent="info">
+      <nb-card accent="info" *ngIf="value != ''">
           <nb-card-header>Fetching live updates for Stock code (In progress):</nb-card-header>
           <nb-card-body>
             <h3>{{ value || '-' }}</h3>
