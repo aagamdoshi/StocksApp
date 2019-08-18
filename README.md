@@ -1,3 +1,7 @@
+# Documentation 
+
+Refer StocksApp.pdf in the attached files for design, UI, UX, Graphs and other functionalities
+
 # StocksApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
