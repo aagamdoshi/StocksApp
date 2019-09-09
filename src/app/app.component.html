@@ -14,7 +14,7 @@
     </nb-card>
     <div *ngFor="let stock of arrayData">
       <nb-card status={{stock.status}} (click)="openWindow(stock)">
-        <nb-card-header>Stock Code
+        <nb-card-header>Stock Name:
           <button nbTooltip="Click to view more details" nbButton outline status={{stock.status}}
             size="small">
             {{stock.name}}
