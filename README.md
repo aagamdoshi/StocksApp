@@ -1,28 +1,24 @@
 # Documentation 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) `version 8.0.1`.
+Refer [StocksApp.pdf](https://github.com/aagamdoshi/StocksApp/blob/master/StocksApp.pdf) in the attached files for design, UI, UX, Graphs and other functionalities
 
-Deployment is done using Firebase App
-
-Screenshot of the Portfolio Website ![Reference image](https://github.com/aagamdoshi/PortFolio-Website/blob/master/src/assets/images/fullSS.PNG) design, UI, UX, for viewing my complete portfolio
-
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) `version 8.0.3`.
 
 ## Demo
 
-For Live Demo do visit :
-https://angular-hosting-app-de.firebaseapp.com/#/
+![Real-Time Stocks Update](Videos/StocksAppDemo.gif)
 
 
 ## Technology Used
 
 `Angular 8`
-`Firebase`
+`WebSockets`
 `ng-admin UI`
+`chart.js`
+`d3.js`
 `JavaScript`
 `Bootstrap`
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-
